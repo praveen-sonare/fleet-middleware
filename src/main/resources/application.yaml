@@ -1,0 +1,11 @@
+server.port: 8095
+spring:
+  config.activate.on-profile: dev
+  application.name: rental-solution
+
+auth0:
+  client-id: HQYQT4eIztmUS0whF6DzhhJoeGHSbR7f
+  client-secret: sr8THzSzmBAop9vDGXjFUh8emEsYC15I4poC5LFriFWgAItTIH2WZCRr7MxqzjME
+  domain: scooterson.us.auth0.com
+  connection: Username-Password-Authentication
+

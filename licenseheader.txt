@@ -1,0 +1,8 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}Created by Pavel Kiss on ${date?date?string("dd/mm/yyyy")}.
+${licensePrefix}Copyright © ${date?date?string("yyyy")} Scooterson. All rights reserved.
+<#if licenseLast??>
+${licenseLast}
+</#if>
